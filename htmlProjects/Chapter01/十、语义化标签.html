@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>语义化标签</title>
+</head>
+<body>
+    <!--
+        在网页中html专门负责网页结构
+        所以在使用html标签时应该关注的是标签语义，而不是样式
+    -->
+    <h1>一级标题</h1>
+    <p>在p1标签中的内容表示一个段落</p>
+    <h2>二级标题</h2>
+    <h3>一共有六级标题</h3>
+    
+    <p>在p2标签中的内容表示一个段落</p>
+    <!--<hgroup>作用就是把一组相关的标题归放在一起-->
+    <hgroup>
+        <h1>大标题</h1>
+        <h2>小标题</h2>
+    </hgroup>
+    <!--
+        em标签用于加重语气(加了会变斜体)
+        在行内不会独占一行的元素为行内元素(inline element)
+        strong标签表示真正的强调
+    -->
+    <p><em>em标签</em>的<strong>用法</strong></p>
+     <!--
+        blockquote表示一个长引用(换行缩进了)
+        q表示一个短引用(加了个引号)
+        br标签表示一个换行
+    -->
+     鲁迅说：
+    <blockquote>阿斯顿发射点</blockquote>
+    子曰：<q>学而时习之</q>
+    <br> 哦活
+    <!---
+        块元素；(block element)
+            在网页中一般通过元素来对页面进行布局
+        行内元素(inline element)
+            行内元素主要用来包裹文字
+            一般情况下会在块元素中放行内元素
+            而不会在行内元素中放块元素--(块元素啥都能放)
+            p元素中不能放任何的块元素
+        -->
+</body>
+</html>
